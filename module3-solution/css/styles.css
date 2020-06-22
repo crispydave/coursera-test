@@ -1,0 +1,60 @@
+body {
+	font-size: 16px;
+	color: #000000;
+	font-family: Lato, Helvetica, Arial, sans-serif;
+	background-color: #BB5190
+}
+
+h2 {color: #fff;
+font-size: 32px;
+margin-bottom: 20px;}
+
+/* Header Bar */
+#header-nav {
+	background-color: #FEA701; /*yellow*/
+	border-radius: 0;
+	border:0px;
+}
+
+
+
+
+.navbar-default .navbar-collapse {
+	background-color: #FE6364; /*pink*/
+}
+
+@media (min-width: 767px) {
+	.navbar-default .navbar-collapse {
+background-color: #FEA701;
+}
+}
+
+/* Logo */
+.navbar-default .navbar-brand {
+	color: #000;
+	font-size: 22px;
+	background-color: #FEA701;
+}
+
+
+
+
+#nav-list a {
+	color: #fff;
+	
+}
+#nav-list a:hover {
+	color: #000;
+}
+
+.home-tiles {
+	background-color: #57508c;
+	margin-bottom: 15px;
+	color: #fff;
+	padding: 10px 20px 10px;
+}
+
+.col-sm-12, .com-xs-12 {
+padding-left: 50px;
+padding-right: 50px;
+}
