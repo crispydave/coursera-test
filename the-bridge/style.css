@@ -1,0 +1,30 @@
+// Google fonts import link
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap');
+
+
+body {
+    background-color: rgb(159, 248, 244);
+}
+
+
+.navbar-toggler a {
+    text-transform: uppercase;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #181e29;
+}
+
+.navbar-toggler {
+    color: red;
+    border-color: green;
+  }
+
+
+
+// Small devices (landscape phones etc)
+@media (max-width: 575px) { ... }
+
+// Medium devices (tablets etc)
+@media (max-width: 767px) { 
+    
+}
+
