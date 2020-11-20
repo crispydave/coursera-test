@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Muli;
+  }
+
+body {
+    background-color: #F5F5F5;
+}
+
+.formContainer {
+    background-color: #fff;
+    margin: 0 auto 0 auto;
+    max-width: 800px;
+    padding-bottom: 20px;
+}
+
+.header {
+    padding: 20px 30px;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+h1 {
+    
+    text-align: center;
+    margin: 1em 0 0.5em 0;
+    color: #78254f;
+}
+
+h4 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.cost {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.progress {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.progressBox {
+    margin-top: 20px;
+    padding: 10px 0px;
+    border-top: 1px solid #9c9c9c;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+
+select {
+    border-radius: 0px;
+    border: 1px solid #9c9c9c;
+    padding: 0.7em;
+}
+
+.quantity {
+    margin-left: 20px;
+}
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 0 auto 0 auto;
+    max-width: 650px;
+    
+  }
+  form .text {
+    background: #fff;
+    border: 1px solid #9c9c9c;
+  }
+  form button {
+    background: lightgrey;
+    padding: 0.7em;
+    width: 100%;
+    border: 0;
+  }
+
+  .ticketText {
+      font-style: italic;
+      color:#606060;
+  }
+  
+  
+.totalBox {
+    margin-top: 10px;
+    padding: 20px 0px;
+    border-top: 1px solid #e6e6e6;
+
+}
+  
+input {
+    padding: 0.6em;
+    margin-bottom: 0.5rem;
+  }
+
+
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.price .label {
+    font-size: 1.2em;
+    justify-items: center;
+}
+
+
+  
+  @media (min-width: 400px) {
+    form {
+      grid-template-columns: 200px 1fr;
+      grid-gap: 16px;
+    }
+  
+    label {
+      text-align: left;
+      
+    }
+  
+    input,
+    button {
+      grid-column: 2 / 3;
+    }
+  }
+
+/* Number Selector */
+
+  input,
+textarea {
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+}
+
+input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+ margin-left: 20px;
+ border: none;
+}
+
+.button-plus, .button-minus {
+  background-color: #eeeeee;
+  min-width: 38px;
+  width: auto;
+  transition: all 300ms ease;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  font-family: Muli;
+  height: 38px;
+  padding: 0;
+  width: 38px;
+  position: relative;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 38px;
+  text-align: center;
+  width: 60px;
+  font-size: 14px;
+  margin: 0 0 5px;
+  resize: vertical;
+  border: 1px solid #9c9c9c;
+}
+
+
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+}
+
+.promo {
+    width: 200px;
+}
+
+.buttonBox {
+    display: flex;
+
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.buttons {
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 8px;
+    border: none;
+    width: inherit;
+    display: flex;
+  align-items: center;
+}
+
+
+.next {
+    background-color: #EB6416;
+color: #ffffff;
+border: 2px solid #EB6416;
+    
+}
+
+.back {
+    color: #EB6416;
+    background-color: #ffffff;
+  border: 2px solid #EB6416;
+  
+}
+
+
+
+.next .fa-angle-right {
+    font-size: 1.5em;
+    margin-left: .3em;
+}
+
+.fa-angle-left {
+    font-size: 1.5em;
+    margin-right: .3em;
+}
+
+
+
+
+  
